@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Buscar</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
   <!-- Boxicons CDN Link -->
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+   <!-- Tailwindcss CDN Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css" />
 </head>
 
@@ -18,11 +19,11 @@
   <div class="bg-gray-800 flex flex-col h-screen text-sm text-gray-400">
     <div class="flex-1 flex overflow-y-hidden">
   <div class="bg-black w-60 sidebar  flex-none flex flex-col justify-between font-semibold">
-    <nav>
-    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="">
+    <nav class="mt-5">
+    <img src="../images/logo.png" width="180" alt="">
       <ul class="text-white py-6 p-1 m-1 leading-3">
         <li class="text-base ">
-          <a href="" >
+          <a href="../index.html" >
           <i class='bx bx-home-alt'></i>
           <span>Inicio</span>
         </a>
@@ -39,14 +40,16 @@
           <span>Sua Bilblioteca</span>
         </li>
       </ul>
-      <ul class="text-white">
+      <ul class="text-white p-2">
         <li class="text-base">
-          <a href="" >
+          <a href="#" >
+            <i class='bx bx-play-circle'></i>
           <span>Criar playlist</span>
         </a>
         </li>
-        <li>
-          <a href="" >
+        <li class="mt-3">
+          <a href="#" >
+            <i class='bx bx-heart-square'></i>
           <span>Músicas Curtidas</span>
         </a>
         </li>
@@ -67,19 +70,101 @@
    
   <input type="text" placeholder=" Artistas, músicas ou podcasts" class="bg-white text-gray-800 placeholder-gray-800 rounded-full px-3 pl-8 py-1">
   <div class="absolute top-0">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path></svg>
+    <img src="../images/search.png" width="25" height="25" alt="">
   </div>
 </div>
      </div>
     </div>
 
 <!-- Content -->
-  <div class=" overflow-hidden w-full">
+  <div class="overflow-x-auto w-full">
     <div class="mx-auto">
-    <h3 class="mt-24 text-5xl font-semibold text-white">Navegar por todas as seções</h3>
+    <h3 class="mt-24 text-4xl font-semibold text-white">Navegar por todas as seções</h3>
     </div>
      
-
+    <!-- Indicações de musicas -->
+    <div class="grid grid-cols-3 grid-rows-3 m-0">
+      
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-green-500 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Podcasts</h2>
+        </div>
+        </div>
+       
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-blue-800 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Feito para você</h2>
+        </div>
+        </div>
+        
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-purple-700 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Descobrir</h2>
+        </div>
+        </div>
+      
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-blue-500 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Em casa</h2>
+        </div>
+        </div>
+        
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-purple-900 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Pop</h2>
+        </div>
+        </div>
+         
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-pink-600 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Seu Astral</h2>
+        </div>
+        </div>
+       
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-blue-200 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Música Ambiente</h2>
+        </div>
+        </div>
+         
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-red-700 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Romance</h2>
+        </div>
+        </div>
+       
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-green-800 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Festa</h2>
+        </div>
+        </div>
+       
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-yellow-500 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Relax</h2>
+        </div>
+        </div>
+        
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-pink-400 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Foco</h2>
+        </div>
+        </div>
+    
+       <div class="p-5 mr-6">
+        <div class="w-64 h-44 bg-blue-900 rounded-lg animate-pulse flex justify-center items-center">
+          <h2 class="text-bold font-bold text-white text-center text-xl">Para Dormir</h2>
+        </div>
+        </div>
+        
+    
+       
+      
+    </div>
+    
+     
+  
+  </div>
 
 
   </div>
