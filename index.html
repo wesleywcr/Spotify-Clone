@@ -20,27 +20,27 @@
   <div class="bg-black w-60 sidebar  flex-none flex flex-col justify-between font-semibold">
     <nav>
     <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="">
-      <ul class="text-white py-6">
-        <li class="border-l-4 border-green-600">
+      <ul class="text-white py-6 p-1 m-1 leading-3">
+        <li class="border-l-4 border-green-600 text-base hover:bg-gray-400 ">
           <a href="" >
-          <i class='bx bx-grid-alt'></i>
+          <i class='bx bx-home-alt'></i>
           <span>Inicio</span>
         </a>
         </li>
 
-        <li>
+        <li class="text-base">
           <a href="" >
-          <i class='bx bx-grid-alt'></i>
+          <i class='bx bx-search'></i>
           <span>Buscar</span>
         </a>
         </li>
-        <li>
-          <i class='bx bx-grid-alt'></i>
+        <li class="text-base">
+          <i class='bx bx-library'></i>
           <span>Sua Bilblioteca</span>
         </li>
       </ul>
       <ul class="text-white">
-        <li>
+        <li class="text-base">
           <a href="" >
           <span>Criar playlist</span>
         </a>
@@ -65,7 +65,7 @@
  </button>
  <div class="ml-4 relative">
    
-  <input type="text" placeholder=" Search" class="bg-white text-gray-800 placeholder-gray-800 rounded-full px-3 pl-8 py-1">
+  <input type="text" placeholder=" Artistas, músicas ou podcasts" class="bg-white text-gray-800 placeholder-gray-800 rounded-full px-3 pl-8 py-1">
   <div class="absolute top-0">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path></svg>
   </div>
@@ -74,31 +74,173 @@
     </div>
 
 <!-- Content -->
-  <div class="content-spotify overflow-y-auto">
-    <div class="container mx-auto">
-<h2 class="mt-24 text-5xl font-semibold text-white">Paradas</h2>
-    </div>
-    <div class="mt-12">
-    <h2 class=" text-white font-semibold text-xl border-b border-gray-900 pb-2">Top 50-Brasil</h2>
-    <div class="flex items-center mt-4 -mx-4">
+  <div class="overflow-y-auto w-full">
+    <div class="mx-auto">
+    <h2 class="mt-24 text-5xl font-semibold text-white">Paradas</h2>
+    
      
-      <section class="w-1/5 px-4">
+  <!-- Componente-Inicio -->
+  <div class="mt-12">
+    <h3 class="font-semibold text-xl border-b border-gray-900 pb-2">Paradas</h3>
+     <div class="flex items-center mt-4 -mx-4">
+      <!-- Componente-1 -->
+      <div class="w-1/5 px-4 ">
+      <div class="mx-auto p-7 w-full leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
         <div>
         <a href="">
-          <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="">
-        </a>
-      </div>
-      </section>
-      <div>
-      <a href="" class="font-semibold block hover:text-white mt-2">
-         Top 50 Brasil
-      </a>
-      <div class="text-gray-500 mt-2">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+          <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+        </div>
+          <div>
+        <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+         <div class="text-gray-300 mt-2 text-sm ">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+          <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+          </div> 
+          </div> 
+        </div>
+      </div> 
+  <!-- Componente-2 -->
+      <div class="w-1/5 px-4">
+        <div class="mx-auto p-7 w-full leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
+          <div>
+          <a href="#">
+            <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+          </div>
+            <div>
+          <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+           <div class="text-gray-300 mt-2 text-sm">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+            <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+            </div> 
+            </div> 
+          </div>
+        </div> 
+         <!-- Componente-3 -->
+        <div class="w-1/5 px-4 ">
+          <div class="mx-auto p-7 w-full leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
+            <div>
+            <a href="#">
+              <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+            </div>
+              <div>
+            <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+             <div class="text-gray-300 mt-2 text-sm">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+              <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+              </div> 
+              </div> 
+            </div>
+          </div> 
+           <!-- Componente-4 -->
+          <div class="w-1/5 px-4 ">
+            <div class="mx-auto p-7 w-full  leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
+              <div>
+              <a href="#">
+                <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+              </div>
+                <div>
+              <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+               <div class="text-gray-300 mt-2 text-sm">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+                <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+                </div> 
+                </div> 
+              </div>
+            </div> 
+             <!-- Componente-5-->
+            <div class="w-1/5 px-4 ">
+              <div class="mx-auto p-7 w-full leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
+                <div>
+                <a href="#">
+                  <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+                </div>
+                  <div>
+                <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+                 <div class="text-gray-300 mt-2 text-sm">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+                  <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+                  </div> 
+                  </div> 
+                </div>
+              </div> 
     </div>
-
-    </div>  
   </div>
-</div>
+   <!-- Componente-Inicio -->
+   <div class="mt-12">
+    <h3 class="font-semibold text-xl border-b border-gray-900 pb-2">Paradas</h3>
+     <div class="flex items-center mt-4 -mx-4">
+      <!-- Componente-1 -->
+      <div class="w-1/5 px-4 ">
+      <div class="mx-auto p-7 w-full leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
+        <div>
+        <a href="">
+          <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+        </div>
+          <div>
+        <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+         <div class="text-gray-300 mt-2 text-sm ">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+          <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+          </div> 
+          </div> 
+        </div>
+      </div> 
+  <!-- Componente-2 -->
+      <div class="w-1/5 px-4">
+        <div class="mx-auto p-7 w-full leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
+          <div>
+          <a href="#">
+            <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+          </div>
+            <div>
+          <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+           <div class="text-gray-300 mt-2 text-sm">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+            <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+            </div> 
+            </div> 
+          </div>
+        </div> 
+         <!-- Componente-3 -->
+        <div class="w-1/5 px-4 ">
+          <div class="mx-auto p-7 w-full leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
+            <div>
+            <a href="#">
+              <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+            </div>
+              <div>
+            <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+             <div class="text-gray-300 mt-2 text-sm">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+              <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+              </div> 
+              </div> 
+            </div>
+          </div> 
+           <!-- Componente-4 -->
+          <div class="w-1/5 px-4 ">
+            <div class="mx-auto p-7 w-full  leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
+              <div>
+              <a href="#">
+                <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+              </div>
+                <div>
+              <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+               <div class="text-gray-300 mt-2 text-sm">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+                <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+                </div> 
+                </div> 
+              </div>
+            </div> 
+             <!-- Componente-5-->
+            <div class="w-1/5 px-4 ">
+              <div class="mx-auto p-7 w-full leading-5 ml-5 bg-gray-900 hover:bg-gray-700  rounded-2xl">
+                <div>
+                <a href="#">
+                  <img src="https://i.scdn.co/image/ab67706c0000bebb9bbc0674b28cd38de885768e" alt="album cover"></a>
+                </div>
+                  <div>
+                <a href="#" class="font-semibold block text-white mt-2">Top 50 - Brasil</a>
+                 <div class="text-gray-300 mt-2 text-sm">Brasil: seu relatório diário das faixas mais tocadas no momento</div>
+                  <div class="uppercase tracking-widest text-xs text-gray-500 mt-3">6679 Followers
+                  </div> 
+                  </div> 
+                </div>
+              </div> 
+    </div>
+  </div>
 
 </div>
 
