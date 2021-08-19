@@ -13,7 +13,8 @@ Para este projeto usamos as seguintes tecnologias:
 
 - [HTML5](https://nodejs.org/en/)
 - [TaiwindCSS](https://tailwindcss.com/)
-- 
+
+# 📝License
 - Released in 2021.
 This project is under the [MIT license](./LICENSE)
 Made with ❤️ by [Wesley Rodrigues](https://github.com/wesleywcr)🤙👊
